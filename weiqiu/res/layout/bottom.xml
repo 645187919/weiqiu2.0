@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:background="@drawable/bottom_bar"
+    
+     >
+    <LinearLayout 
+         android:id="@+id/id_tab_weixin"
+         android:layout_width="0dp"
+         android:layout_height="55dp"
+         android:orientation="vertical"
+         android:layout_weight="1"
+         android:gravity="center"
+         
+         
+        >
+        <ImageButton 
+            android:id="@+id/id_tab_weiqiu_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tab_weixin_pressed"
+            android:clickable="false"
+            android:background="#00000000"
+            
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微秋"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+        
+    </LinearLayout>
+    <!-- 第二个按钮：start -->
+   
+    <!-- 第二个按钮结束 -->
+    <!-- 第三个按钮：start -->
+    <LinearLayout
+        android:id="@+id/id_tab_address"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        
+         
+        
+        >
+        <ImageButton 
+            android:id="@+id/id_tab_address_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/tab_address_pressed"
+            android:background="#00000000"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通讯录"
+            android:textColor="#ffffff"
+            
+            />
+        
+    </LinearLayout>
+<!-- 第三个按钮结束 -->
+ <LinearLayout 
+        android:id="@+id/id_tab_myself"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+        <ImageButton 
+            android:id="@+id/id_tab_myself_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tab_myself_press"
+            android:clickable="false"
+            android:background="#00000000"
+            
+            
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我"
+            android:textColor="#ffffff"
+            
+            
+            />
+        
+    </LinearLayout>
+<LinearLayout 
+    android:id="@+id/id_tab_setting"
+    android:layout_width="0dp"
+    android:layout_height="55dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1"
+    
+    >
+    <ImageButton 
+        android:id="@+id/id_tab_setting_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tab_settings_pressed"
+        android:clickable="false"
+        android:background="#00000000"
+        
+        
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="发现"
+   android:textColor="#ffffff"
+   
+        />
+    
+</LinearLayout>
+</LinearLayout>
